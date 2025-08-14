@@ -22,5 +22,4 @@ It shows **real-time weather data** for any city and dynamically changes the bac
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone (https://aniket0753.github.io/Weather-forecast)
