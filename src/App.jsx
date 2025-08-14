@@ -2,19 +2,19 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import WeatherCard from "./weathercard";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="*" element={<Default></Default>}></Route>
         <Route path="/about" element={<About></About>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
